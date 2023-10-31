@@ -1,0 +1,18 @@
+a{
+    border: 1px solid green;
+    background-color: skyblue;
+    color: red;
+}
+
+h1{
+    color: red;
+    background-color: aqua;
+    border: 2px solid orange;
+}
+
+p{
+    color: indigo;
+    background-color: violet;
+    border: 3px solid blue;
+}
+
