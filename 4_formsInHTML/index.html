@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-making _using HTMLs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Form-Submission about Admission Query</h1>
+    <form action="post"> <!--Form-tag-->
+        <div>
+            <label for="username">Enter your name</label>
+            <!--To label the inputs, what type of input be taken by user-->
+            <input type="text" id="username" name="username" placeholder="Enter your Name" autofocus>
+            <!--type_attribute is the input type, which is given by the user. And, (id) is the uniquely identifier-->
+
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="rare" name="gender" value="rare">
+            <label for="rare">Rare</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <!--(value) helps to store input data from user, which is passed to the Author-->
+            <label for="subscribe"">subscribe to the Newsletter</label>
+    </div>
+    <div>
+        <select name=" Fruits" id="Fruits">
+                <!--select-tag will present the list of options that is to be selected by the user, and (value-attribute) will pass the value, which is selected by the user-->
+                <option value="apple">Apple</option>
+                <option value="mango">Mango</option>
+                <option value="red cherry">Red Cherry</option>
+                </select>
+        </div>
+    </form>
+</body>
+
+</html>
